@@ -19,4 +19,8 @@ btn.addEventListener("click", () => {
   list.appendChild(li);
 
   input.value = "";
+
+  deleteBtn.addEventListener("click", () => {
+    list.removeChild(li);
+  });
 });
