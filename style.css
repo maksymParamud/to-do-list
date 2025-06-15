@@ -75,6 +75,12 @@ main input {
     margin-bottom: 30px;
 }
 
+.todo-list-item.fade-out {
+  opacity: 0;
+  transform: translateX(20px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
 .delete-btn {
     height: 30px;
     border-radius: 10px;

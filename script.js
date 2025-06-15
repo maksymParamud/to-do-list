@@ -21,6 +21,10 @@ btn.addEventListener("click", () => {
   input.value = "";
 
   deleteBtn.addEventListener("click", () => {
-    list.removeChild(li);
+    li.classList.add("fade-out");
+
+    setTimeout(() => {
+      li.remove();
+    }, 300);
   });
 });
