@@ -1,0 +1,52 @@
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right, #40a0b1, #479751);
+    font-family: "open sans";
+}
+
+
+/* HEADER        TODO: ask to chatgpt do colors are beutiful */
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 50px;
+    color: #1d373b;
+}
+
+
+/* MAIN */
+
+main {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+main input {
+    margin-left: 42px;
+    padding-left: 15px;
+    width: 550px;
+    height: 37px;
+    border: none;
+    border-radius: 25px 0 0 25px;
+    background-color: rgb(46, 50, 59);
+    color: rgb(198, 198, 198);
+}
+
+#btn-submit {
+    width: 75px;
+    padding-right: 10px;
+    border: none;
+    border-radius: 0 25px 25px 0;
+    transition: all .15s ease;
+}
+
+#btn-submit:active {
+    background-color: rgb(161, 161, 161);
+}
