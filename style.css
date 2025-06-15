@@ -28,15 +28,9 @@ h1 {
     justify-content: center;
 }
 
-.main-body {
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    color: rgb(198, 198, 198);
-}
+
 
 main input {
-    margin-left: 42px;
     padding-left: 15px;
     width: 550px;
     height: 37px;
@@ -56,4 +50,36 @@ main input {
 
 #btn-submit:active {
     background-color: rgb(161, 161, 161);
+}
+
+.main-body {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    color: rgb(198, 198, 198);
+}
+
+#nav {
+    list-style-type: none;
+    width: 55%;
+}
+
+.todo-list-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    border-radius: 25px;
+    background: linear-gradient(to left, #23555e, #44894e);
+    margin-bottom: 30px;
+}
+
+.delete-btn {
+    height: 30px;
+    border-radius: 10px;
+    width: 75px;
+    height: 35px;
+    background-color: #1d373b;
+    border: none;
+    color: rgb(198, 198, 198);
 }
