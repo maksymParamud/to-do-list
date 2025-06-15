@@ -46,6 +46,7 @@ main input {
     border: none;
     border-radius: 0 25px 25px 0;
     transition: all .15s ease;
+    cursor: pointer;
 }
 
 #btn-submit:active {
@@ -82,4 +83,5 @@ main input {
     background-color: #1d373b;
     border: none;
     color: rgb(198, 198, 198);
+    cursor: pointer;
 }
