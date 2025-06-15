@@ -3,11 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     background: linear-gradient(to right, #40a0b1, #479751);
-    font-family: "open sans";
+    font-family: "open sans", sans-serif;
 }
 
 
-/* HEADER        TODO: ask to chatgpt do colors are beutiful */
+/* HEADER */
 
 header {
     display: flex;
