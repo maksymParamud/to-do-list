@@ -22,10 +22,17 @@ h1 {
 
 /* MAIN */
 
-main {
+.main-header {
     margin-top: 50px;
     display: flex;
     justify-content: center;
+}
+
+.main-body {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    color: rgb(198, 198, 198);
 }
 
 main input {
