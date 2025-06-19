@@ -16,12 +16,9 @@ This is a simple To-Do list app that allows you to add and delete tasks. Data is
 - `localStorage`
 
 
-## How to Run:
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/maksymparamud/to-do-list.git
-    ```
-2. Open the `index.html` file in your browser.
+## 🔗 Live Demo
+
+👉 [View Live Website](https://maksymparamud.github.io/to-do-list/)
 
 
 ## Contact:
